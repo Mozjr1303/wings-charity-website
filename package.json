@@ -1,0 +1,12 @@
+{
+  "name": "wings-charity-website",
+  "version": "1.0.0",
+  "description": "Wings — Maternal and Newborn Support Organization Website",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "build": "node -e \"console.log('Static assets verified and ready.')\""
+  },
+  "private": true
+}

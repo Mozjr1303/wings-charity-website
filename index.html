@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>wings — Protecting Vulnerable Newborns &amp; Mothers in Crisis</title>
+  <meta name="description" content="Wings is a maternal and newborn support organization dedicated to protecting vulnerable newborns, supporting mothers in crisis, and championing maternal health in Malawi." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- SECTION 1: HEADER -->
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a href="index.html" class="brand-logo" aria-label="wings home">
+        <span class="logo-emblem" aria-hidden="true">
+          <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="18" cy="18" r="18" fill="#EAF2F9" />
+            <circle cx="18" cy="18" r="17" stroke="#347FC4" stroke-opacity="0.35" stroke-width="1.2" />
+            <path d="M8.5 19.5C8.5 14.5 12.2 10.5 18 10.5C23.8 10.5 27.5 14.5 27.5 19.5" stroke="#347FC4" stroke-width="1.6" stroke-linecap="round" />
+            <path d="M10.5 22C12.2 24.8 14.9 26.5 18 26.5C21.1 26.5 23.8 24.8 25.5 22" stroke="#347FC4" stroke-width="1.6" stroke-linecap="round" />
+            <circle cx="16.2" cy="15.2" r="2" fill="#347FC4" />
+            <circle cx="20.3" cy="16.8" r="1.5" fill="#347FC4" />
+            <path d="M13.5 21.2C14.1 18.9 15.8 17.8 17.8 17.8C19.8 17.8 21.5 18.9 22.2 21.2" stroke="#347FC4" stroke-width="1.7" stroke-linecap="round" />
+          </svg>
+        </span>
+        <span class="logo-wordmark">wings</span>
+      </a>
+
+      <div class="header-right">
+        <nav class="main-nav" id="main-nav" aria-label="Primary Navigation">
+          <ul class="nav-list">
+            <li><a href="about.html" class="nav-link">About Us</a></li>
+            <li><a href="our-work.html" class="nav-link">Our Work</a></li>
+            <li><a href="our-impact.html" class="nav-link">Our Impact</a></li>
+            <li><a href="stories.html" class="nav-link">Stories</a></li>
+            <li><a href="contact.html" class="nav-link">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="header-actions">
+          <button type="button" class="btn btn-primary btn-nav" data-open-modal="get-involved">
+            Get Involved
+          </button>
+          <button
+            type="button"
+            class="mobile-menu-toggle"
+            id="mobile-menu-toggle"
+            aria-expanded="false"
+            aria-controls="mobile-nav-drawer"
+            aria-label="Toggle navigation menu"
+          >
+            <svg class="icon-menu" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+              <line x1="3" y1="6" x2="21" y2="6" />
+              <line x1="3" y1="12" x2="21" y2="12" />
+              <line x1="3" y1="18" x2="21" y2="18" />
+            </svg>
+            <svg class="icon-close" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+              <line x1="18" y1="6" x2="6" y2="18" />
+              <line x1="6" y1="6" x2="18" y2="18" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mobile Navigation Drawer -->
+    <div class="mobile-nav-drawer" id="mobile-nav-drawer" hidden>
+      <div class="container mobile-nav-inner">
+        <ul class="mobile-nav-list">
+          <li><a href="about.html" class="mobile-nav-link">About Us</a></li>
+          <li><a href="our-work.html" class="mobile-nav-link">Our Work</a></li>
+          <li><a href="our-impact.html" class="mobile-nav-link">Our Impact</a></li>
+          <li><a href="stories.html" class="mobile-nav-link">Stories</a></li>
+          <li><a href="contact.html" class="mobile-nav-link">Contact</a></li>
+        </ul>
+        <button type="button" class="btn btn-primary mobile-cta-btn" data-open-modal="get-involved">
+          Get Involved
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- SECTION 2: IMAGE-LED HERO -->
+    <section class="hero-section" id="about">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <span class="section-badge">Maternal &amp; Newborn Care in Malawi</span>
+          <h1 class="hero-headline">
+            <span class="headline-line">Protecting Vulnerable</span>
+            <span class="headline-line">Newborns &amp; Mothers in</span>
+            <span class="headline-line">Crisis</span>
+          </h1>
+          <p class="hero-description">
+            Every mother and newborn deserves the chance to survive and thrive. Wings works alongside families and healthcare teams in Malawi to protect high-risk infants, support mothers recovering from complicated births, and provide compassionate family-based care during the most fragile moments of early life.
+          </p>
+          <div class="hero-actions">
+            <a href="our-work.html" class="btn btn-primary">Find Out More</a>
+            <button type="button" class="btn btn-secondary" data-open-modal="get-involved">Get Involved</button>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <figure class="hero-figure">
+            <img
+              src="assets/images/hero-mother-newborn.jpg"
+              alt="A mother in Malawi holding her sleeping newborn wrapped in a pale blue blanket"
+              class="hero-image"
+              width="640"
+              height="460"
+            />
+            <figcaption class="hero-caption">
+              <span class="caption-dot" aria-hidden="true"></span>
+              <span>Supporting mothers and newborns across clinical and community settings in Malawi</span>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3: IMPACT STATISTICS -->
+    <section class="stats-section" id="our-impact" aria-label="Organization Statistics">
+      <div class="container stats-container">
+        <div class="stats-grid">
+          <div class="stat-item">
+            <div class="stat-value">24/7</div>
+            <div class="stat-label">Continuous Support &amp; Availability</div>
+            <p class="stat-sublabel">Responsive care pathways for mothers and newborns facing urgent crisis</p>
+          </div>
+          <div class="stat-item">
+            <div class="stat-value">100%</div>
+            <div class="stat-label">Dedicated to Mothers &amp; Newborns</div>
+            <p class="stat-sublabel">Focused on safeguarding early life, maternal recovery, and family stability</p>
+          </div>
+          <div class="stat-item">
+            <div class="stat-value">UK</div>
+            <div class="stat-label">UK Connected Support Initiative</div>
+            <p class="stat-sublabel">Connecting UK advocacy and partnerships with maternal healthcare in Malawi</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 4: OUR WORK -->
+    <section class="support-section" id="our-work">
+      <div class="container">
+        <div class="section-intro">
+          <span class="section-eyebrow">OUR CARE PROGRAMMES</span>
+          <h2 class="section-heading">Support Led by Women for Mothers</h2>
+          <p class="section-subtitle">
+            Inspired by community-rooted maternal care, our women-led programmes bridge the gap between hospital delivery and home recovery—ensuring vulnerable newborns, postpartum mothers, and extended caregivers receive continuous support.
+          </p>
+        </div>
+
+        <div class="programme-cards-grid">
+          <!-- PROGRAMME CARD 1 -->
+          <article class="programme-card">
+            <div class="programme-card-media">
+              <img
+                src="assets/images/prog-protection.jpg"
+                alt="Newborn twins in Malawi resting safely in warm knitted hats and blankets"
+                class="programme-card-img"
+                loading="lazy"
+                width="400"
+                height="260"
+              />
+            </div>
+            <div class="programme-card-body">
+              <div class="programme-card-header">
+                <span class="programme-icon-badge" aria-hidden="true">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#347FC4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                    <path d="M9 12l2 2 4-4" />
+                  </svg>
+                </span>
+                <h3 class="programme-card-title">Protection &amp; Safety</h3>
+              </div>
+              <p class="programme-card-text">
+                We prioritize the immediate safety and safeguarding of premature, low-birth-weight, and high-risk newborns alongside mothers navigating crisis—creating secure environments where early life is protected.
+              </p>
+              <a href="our-work.html#protection" class="card-text-link">
+                <span>Learn More</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <line x1="5" y1="12" x2="19" y2="12" />
+                  <polyline points="12 5 19 12 12 19" />
+                </svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- PROGRAMME CARD 2 -->
+          <article class="programme-card">
+            <div class="programme-card-media">
+              <img
+                src="assets/images/prog-compassionate-care.jpg"
+                alt="Maternal nursing officer at Queen Elizabeth Central Hospital in Blantyre, Malawi"
+                class="programme-card-img"
+                loading="lazy"
+                width="400"
+                height="260"
+              />
+            </div>
+            <div class="programme-card-body">
+              <div class="programme-card-header">
+                <span class="programme-icon-badge" aria-hidden="true">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#347FC4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" />
+                  </svg>
+                </span>
+                <h3 class="programme-card-title">Compassionate Care</h3>
+              </div>
+              <p class="programme-card-text">
+                Our care model centers on empathy, clinical guidance, and respectful accompaniment—supporting women recovering from complicated deliveries and ensuring every newborn receives attentive postnatal follow-up.
+              </p>
+              <a href="our-work.html#compassionate-care" class="card-text-link">
+                <span>Learn More</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <line x1="5" y1="12" x2="19" y2="12" />
+                  <polyline points="12 5 19 12 12 19" />
+                </svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- PROGRAMME CARD 3 -->
+          <article class="programme-card">
+            <div class="programme-card-media">
+              <img
+                src="assets/images/prog-family-support.jpg"
+                alt="A mother and grandmother in Malawi holding newborn twins together"
+                class="programme-card-img"
+                loading="lazy"
+                width="400"
+                height="260"
+              />
+            </div>
+            <div class="programme-card-body">
+              <div class="programme-card-header">
+                <span class="programme-icon-badge" aria-hidden="true">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#347FC4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                    <circle cx="9" cy="7" r="4" />
+                    <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+                    <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                  </svg>
+                </span>
+                <h3 class="programme-card-title">Family Support</h3>
+              </div>
+              <p class="programme-card-text">
+                We walk beside mothers, grandmothers, and extended caregivers to strengthen household resilience—helping families access essential infant supplies, nutrition guidance, and community health services.
+              </p>
+              <a href="our-work.html#family-support" class="card-text-link">
+                <span>Learn More</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <line x1="5" y1="12" x2="19" y2="12" />
+                  <polyline points="12 5 19 12 12 19" />
+                </svg>
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 5: SDG 3 AND MALAWI -->
+    <section class="sdg-section" id="sdg3">
+      <div class="container">
+        <div class="sdg-grid">
+          <!-- LEFT COLUMN -->
+          <div class="sdg-left">
+            <span class="section-eyebrow">GLOBAL HEALTH &amp; WELL-BEING</span>
+            <h2 class="sdg-heading">
+              <span class="headline-line">Championing SDG 3 in</span>
+              <span class="headline-line">Malawi</span>
+            </h2>
+            <p class="sdg-description">
+              Our mission is directly aligned with United Nations Sustainable Development Goal 3: <strong>Good Health and Well-being</strong>, which calls for reducing maternal mortality and ending preventable deaths of newborns and children under five.
+            </p>
+            <p class="sdg-description">
+              In Malawi, complications following childbirth or lack of postnatal follow-up can place both mothers and infants at severe risk. By combining hospital-linked referrals with family-centered care in the community, Wings helps protect mothers and babies when they are most vulnerable.
+            </p>
+
+            <div class="sdg-highlights">
+              <div class="sdg-highlight-item">
+                <span class="sdg-marker" aria-hidden="true">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#347FC4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="9" />
+                    <polyline points="12 7 12 12 15 15" />
+                  </svg>
+                </span>
+                <div class="sdg-highlight-content">
+                  <strong class="sdg-highlight-title">First 1,000 Days</strong>
+                  <span class="sdg-highlight-desc">Vital developmental support from pregnancy through early childhood</span>
+                </div>
+              </div>
+
+              <div class="sdg-highlight-item">
+                <span class="sdg-marker" aria-hidden="true">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#347FC4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
+                  </svg>
+                </span>
+                <div class="sdg-highlight-content">
+                  <strong class="sdg-highlight-title">24-Hour Support</strong>
+                  <span class="sdg-highlight-desc">Continuous maternal care and responsive crisis assistance</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- RIGHT COLUMN -->
+          <div class="sdg-right">
+            <div class="sdg-visual-panel">
+              <div class="sdg-photo-wrapper">
+                <img
+                  src="assets/images/sdg3-malawi-clinic.jpg"
+                  alt="A mother holding her newborn close in a maternity ward in Malawi"
+                  class="sdg-photo"
+                  loading="lazy"
+                  width="500"
+                  height="320"
+                />
+              </div>
+              <div class="sdg-globe-card">
+                <div class="globe-illustration" aria-hidden="true">
+                  <svg width="72" height="72" viewBox="0 0 88 88" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="44" cy="44" r="38" stroke="#347FC4" stroke-width="2.2" />
+                    <ellipse cx="44" cy="44" rx="19" ry="38" stroke="#347FC4" stroke-width="1.8" />
+                    <line x1="6" y1="44" x2="82" y2="44" stroke="#347FC4" stroke-width="1.8" />
+                    <path d="M11.5 26H76.5" stroke="#347FC4" stroke-width="1.6" stroke-linecap="round" />
+                    <path d="M11.5 62H76.5" stroke="#347FC4" stroke-width="1.6" stroke-linecap="round" />
+                    <line x1="44" y1="6" x2="44" y2="82" stroke="#347FC4" stroke-width="1.8" />
+                  </svg>
+                </div>
+                <div class="sdg-info-block">
+                  <h3 class="sdg-info-title">SDG 3: Maternal &amp; Newborn Health in Malawi</h3>
+                  <p class="sdg-info-text">
+                    Working alongside local nurses, midwives, and families in Malawi to advance safe motherhood, newborn survival, and accessible postnatal care.
+                  </p>
+                  <a href="our-impact.html#sdg3" class="btn btn-dark-sm">Our Work in Malawi</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 6: STORIES OF IMPACT -->
+    <section class="stories-section" id="stories">
+      <div class="container">
+        <div class="section-intro">
+          <span class="section-eyebrow">FIELD PERSPECTIVES &amp; OUTCOMES</span>
+          <h2 class="section-heading">Stories of Impact</h2>
+          <p class="section-subtitle">
+            Behind every maternal health programme is a mother, a newborn, and a family working to overcome crisis. These programme story templates illustrate how timely care supports families in Malawi and are structured for verified field case studies.
+          </p>
+        </div>
+
+        <div class="stories-grid">
+          <!-- STORY CARD 1 -->
+          <article class="story-card">
+            <div class="story-card-media">
+              <img
+                src="assets/images/story-1-neonatal-care.jpg"
+                alt="A neonatal healthcare worker in Malawi tending to a newborn in a clinical unit"
+                class="story-card-img"
+                loading="lazy"
+                width="400"
+                height="250"
+              />
+              <span class="story-placeholder-tag">Case Study Placeholder</span>
+            </div>
+            <div class="story-card-body">
+              <span class="story-category">Neonatal Care &amp; Safeguarding</span>
+              <h3 class="story-card-title">Protecting High-Risk Newborns in the First Weeks of Life</h3>
+              <p class="story-card-summary">
+                A dedicated slot for a verified beneficiary story documenting how close neonatal monitoring, warmth, and essential care packages support premature and vulnerable newborns after hospital discharge.
+              </p>
+              <a
+                href="stories.html#neonatal-care"
+                class="card-text-link"
+              >
+                <span>Read Story</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <line x1="5" y1="12" x2="19" y2="12" />
+                  <polyline points="12 5 19 12 12 19" />
+                </svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- STORY CARD 2 -->
+          <article class="story-card">
+            <div class="story-card-media">
+              <img
+                src="assets/images/story-2-maternal-clinic.jpg"
+                alt="Mothers and infants attending a maternal health clinic in Malawi"
+                class="story-card-img"
+                loading="lazy"
+                width="400"
+                height="250"
+              />
+              <span class="story-placeholder-tag">Case Study Placeholder</span>
+            </div>
+            <div class="story-card-body">
+              <span class="story-category">Postnatal Maternal Health</span>
+              <h3 class="story-card-title">Accompanying Mothers Through Postpartum Recovery</h3>
+              <p class="story-card-summary">
+                A dedicated slot for a verified maternal recovery story highlighting how routine postnatal checkups, nurse visits, and compassionate guidance help mothers heal after complicated childbirth.
+              </p>
+              <a
+                href="stories.html#maternal-recovery"
+                class="card-text-link"
+              >
+                <span>Read Story</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <line x1="5" y1="12" x2="19" y2="12" />
+                  <polyline points="12 5 19 12 12 19" />
+                </svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- STORY CARD 3 -->
+          <article class="story-card">
+            <div class="story-card-media">
+              <img
+                src="assets/images/story-3-community-care.jpg"
+                alt="A mother in rural Malawi carrying her infant on her back"
+                class="story-card-img"
+                loading="lazy"
+                width="400"
+                height="250"
+              />
+              <span class="story-placeholder-tag">Case Study Placeholder</span>
+            </div>
+            <div class="story-card-body">
+              <span class="story-category">Family &amp; Community Support</span>
+              <h3 class="story-card-title">Standing Beside Grandmothers and Extended Caregivers</h3>
+              <p class="story-card-summary">
+                A dedicated slot for a verified family support story illustrating how practical nutrition assistance and community health outreach empower extended families caring for vulnerable infants.
+              </p>
+              <a
+                href="stories.html#family-resilience"
+                class="card-text-link"
+              >
+                <span>Read Story</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <line x1="5" y1="12" x2="19" y2="12" />
+                  <polyline points="12 5 19 12 12 19" />
+                </svg>
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 7: SUPPORTING THE FIRST 100 DAYS OF LIFE -->
+    <section class="navy-feature-section" id="first-100-days">
+      <div class="container">
+        <div class="navy-grid">
+          <!-- LEFT COLUMN -->
+          <div class="navy-left">
+            <span class="eyebrow-label">EARLY LIFE SUPPORT</span>
+            <h2 class="navy-heading">
+              <span class="headline-line">Supporting the First</span>
+              <span class="headline-line">100 Days of Life</span>
+            </h2>
+            <p class="navy-description">
+              The first 100 days following birth represent a critical window for maternal recovery and newborn survival. We provide targeted, practical care to ensure mothers and infants receive essential protection, healthcare guidance, and daily support from day one.
+            </p>
+            <div class="navy-actions">
+              <a href="our-work.html#first-100-days" class="btn btn-outline-light">
+                Learn More
+              </a>
+            </div>
+          </div>
+
+          <!-- RIGHT COLUMN: 2x2 FEATURE CARDS -->
+          <div class="navy-cards-grid">
+            <!-- CARD 1 -->
+            <article class="feature-card">
+              <div class="feature-card-top">
+                <div class="feature-card-icon" aria-hidden="true">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z" />
+                    <polyline points="3.27 6.96 12 12.01 20.73 6.96" />
+                    <line x1="12" y1="22.08" x2="12" y2="12" />
+                  </svg>
+                </div>
+                <span class="feature-card-tag">Care Kits</span>
+              </div>
+              <h3 class="feature-card-title">Essential Packages</h3>
+              <p class="feature-card-text">
+                Providing vital care bundles, warm newborn clothing, hygiene supplies, and practical necessities for mothers and infants during the earliest stages of life.
+              </p>
+            </article>
+
+            <!-- CARD 2 -->
+            <article class="feature-card">
+              <div class="feature-card-top">
+                <div class="feature-card-icon" aria-hidden="true">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+                  </svg>
+                </div>
+                <span class="feature-card-tag">Postnatal Care</span>
+              </div>
+              <h3 class="feature-card-title">Maternity Assistance</h3>
+              <p class="feature-card-text">
+                Delivering practical support and compassionate accompaniment to mothers through pregnancy, safe childbirth, and the early postnatal recovery period.
+              </p>
+            </article>
+
+            <!-- CARD 3 -->
+            <article class="feature-card">
+              <div class="feature-card-top">
+                <div class="feature-card-icon" aria-hidden="true">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="3" y="3" width="18" height="18" rx="3" />
+                    <line x1="12" y1="8" x2="12" y2="16" />
+                    <line x1="8" y1="12" x2="16" y2="12" />
+                  </svg>
+                </div>
+                <span class="feature-card-tag">Clinical Access</span>
+              </div>
+              <h3 class="feature-card-title">Maternal Health Clinics</h3>
+              <p class="feature-card-text">
+                Facilitating access to maternal health consultations, routine infant growth checks, and appropriate clinical care services for mothers and babies.
+              </p>
+            </article>
+
+            <!-- CARD 4 -->
+            <article class="feature-card">
+              <div class="feature-card-top">
+                <div class="feature-card-icon" aria-hidden="true">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
+                  </svg>
+                </div>
+                <span class="feature-card-tag">Rapid Response</span>
+              </div>
+              <h3 class="feature-card-title">Emergency Services</h3>
+              <p class="feature-card-text">
+                Offering responsive assistance for urgent maternal and newborn needs, guiding families swiftly toward appropriate medical referrals and crisis care.
+              </p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 8: DONATION AND INVOLVEMENT CALL TO ACTION -->
+    <section class="cta-section" id="help-make-a-difference">
+      <div class="container">
+        <div class="cta-banner">
+          <span class="section-eyebrow">STAND WITH MOTHERS &amp; NEWBORNS</span>
+          <h2 class="cta-heading">Help Make a Difference</h2>
+          <p class="cta-description">
+            Your involvement helps Wings provide essential newborn packages, compassionate maternal accompaniment, and community family support for vulnerable mothers and babies in Malawi. Connect with our team to partner, volunteer, or support our programmes.
+          </p>
+          <div class="cta-actions">
+            <button type="button" class="btn btn-primary" data-open-modal="get-involved">
+              Get Involved
+            </button>
+            <a href="contact.html" class="btn btn-secondary">
+              Contact Us
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- SECTION 9: FOOTER -->
+  <footer class="site-footer" id="contact">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Brand & Mission -->
+        <div class="footer-brand-col">
+          <a href="index.html" class="brand-logo footer-logo" aria-label="wings home">
+            <span class="logo-emblem" aria-hidden="true">
+              <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="18" cy="18" r="18" fill="#14264A" />
+                <circle cx="18" cy="18" r="17" stroke="#347FC4" stroke-opacity="0.6" stroke-width="1.2" />
+                <path d="M8.5 19.5C8.5 14.5 12.2 10.5 18 10.5C23.8 10.5 27.5 14.5 27.5 19.5" stroke="#8AB8E6" stroke-width="1.6" stroke-linecap="round" />
+                <path d="M10.5 22C12.2 24.8 14.9 26.5 18 26.5C21.1 26.5 23.8 24.8 25.5 22" stroke="#8AB8E6" stroke-width="1.6" stroke-linecap="round" />
+                <circle cx="16.2" cy="15.2" r="2" fill="#8AB8E6" />
+                <circle cx="20.3" cy="16.8" r="1.5" fill="#8AB8E6" />
+                <path d="M13.5 21.2C14.1 18.9 15.8 17.8 17.8 17.8C19.8 17.8 21.5 18.9 22.2 21.2" stroke="#8AB8E6" stroke-width="1.7" stroke-linecap="round" />
+              </svg>
+            </span>
+            <span class="logo-wordmark footer-wordmark">wings</span>
+          </a>
+          <p class="footer-mission">
+            Protecting vulnerable newborns and supporting mothers in crisis through women-led care, family support, and maternal health initiatives in Malawi.
+          </p>
+        </div>
+
+        <!-- Navigation Links -->
+        <div class="footer-links-col">
+          <h3 class="footer-col-title">Navigation</h3>
+          <ul class="footer-links-list">
+            <li><a href="about.html" class="footer-link">About Us</a></li>
+            <li><a href="our-work.html" class="footer-link">Our Work</a></li>
+            <li><a href="our-impact.html" class="footer-link">Our Impact</a></li>
+            <li><a href="stories.html" class="footer-link">Stories of Impact</a></li>
+            <li><a href="contact.html" class="footer-link">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Programmes -->
+        <div class="footer-links-col">
+          <h3 class="footer-col-title">Our Programmes</h3>
+          <ul class="footer-links-list">
+            <li><a href="our-work.html#protection" class="footer-link">Protection &amp; Safety</a></li>
+            <li><a href="our-work.html#compassionate-care" class="footer-link">Compassionate Care</a></li>
+            <li><a href="our-work.html#family-support" class="footer-link">Family Support</a></li>
+            <li><a href="our-work.html#first-100-days" class="footer-link">First 100 Days of Life</a></li>
+            <li><a href="our-impact.html#sdg3" class="footer-link">SDG 3 in Malawi</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact & Support -->
+        <div class="footer-contact-col">
+          <h3 class="footer-col-title">Contact &amp; Support</h3>
+          <ul class="footer-contact-list">
+            <li>
+              <span class="footer-contact-label">Focus Region:</span>
+              <span>Maternal &amp; Newborn Support, Malawi</span>
+            </li>
+            <li>
+              <span class="footer-contact-label">Network:</span>
+              <span>UK Connected Support Initiative</span>
+            </li>
+          </ul>
+          <a href="contact.html" class="btn btn-primary btn-footer-cta">
+            Send an Enquiry
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="footer-copyright">
+          &copy; 2026 wings. All rights reserved. Maternal &amp; Newborn Support Organization.
+        </p>
+        <div class="footer-bottom-links">
+          <a href="about.html" class="footer-bottom-link">Our Mission</a>
+          <a href="our-work.html" class="footer-bottom-link">Programmes</a>
+          <a href="contact.html" class="footer-bottom-link">Contact Us</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Accessible Modal for "Get Involved" / "Contact" interactions -->
+  <div class="modal-backdrop" id="get-involved-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" hidden>
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <div class="brand-logo">
+          <span class="logo-emblem" aria-hidden="true">
+            <svg width="28" height="28" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="18" cy="18" r="18" fill="#EAF2F9" />
+              <circle cx="18" cy="18" r="17" stroke="#347FC4" stroke-opacity="0.35" stroke-width="1.2" />
+              <path d="M8.5 19.5C8.5 14.5 12.2 10.5 18 10.5C23.8 10.5 27.5 14.5 27.5 19.5" stroke="#347FC4" stroke-width="1.6" stroke-linecap="round" />
+              <circle cx="16.2" cy="15.2" r="2" fill="#347FC4" />
+              <circle cx="20.3" cy="16.8" r="1.5" fill="#347FC4" />
+              <path d="M13.5 21.2C14.1 18.9 15.8 17.8 17.8 17.8C19.8 17.8 21.5 18.9 22.2 21.2" stroke="#347FC4" stroke-width="1.7" stroke-linecap="round" />
+            </svg>
+          </span>
+          <h2 id="modal-title" class="modal-title">Get Involved with wings</h2>
+        </div>
+        <button type="button" class="modal-close-btn" id="modal-close-btn" aria-label="Close dialog">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+            <line x1="18" y1="6" x2="6" y2="18" />
+            <line x1="6" y1="6" x2="18" y2="18" />
+          </svg>
+        </button>
+      </div>
+      <p class="modal-description">
+        Connect with our team to support vulnerable newborns and mothers in crisis, partner on maternal health initiatives in Malawi, or enquire about our First 100 Days programmes.
+      </p>
+      <form class="modal-form" id="get-involved-form">
+        <div class="form-group">
+          <label for="supporter-name">Full Name</label>
+          <input type="text" id="supporter-name" name="name" placeholder="Your name" required />
+        </div>
+        <div class="form-group">
+          <label for="supporter-email">Email Address</label>
+          <input type="email" id="supporter-email" name="email" placeholder="you@example.org" required />
+        </div>
+        <div class="form-group">
+          <label for="support-interest">How would you like to help?</label>
+          <select id="support-interest" name="interest">
+            <option value="essential-packages">Support Essential Newborn Packages</option>
+            <option value="maternal-health">Partner on Maternal Health in Malawi</option>
+            <option value="volunteer">Volunteer or Community Advocacy</option>
+            <option value="general">General Enquiry</option>
+          </select>
+        </div>
+        <div class="modal-actions">
+          <button type="button" class="btn btn-secondary" data-close-modal>Cancel</button>
+          <button type="submit" class="btn btn-primary">Send Enquiry</button>
+        </div>
+        <p class="form-feedback" id="form-feedback" hidden>
+          Thank you for reaching out to wings. Our maternal support team will be in touch shortly.
+        </p>
+      </form>
+    </div>
+  </div>
+
+  <!-- Accessible Modal for "Stories of Impact" Reader -->
+  <div class="modal-backdrop" id="story-modal" role="dialog" aria-modal="true" aria-labelledby="story-modal-title" hidden>
+    <div class="modal-dialog story-modal-dialog">
+      <div class="modal-header">
+        <span class="story-modal-badge" id="story-modal-category">Programme Impact Story</span>
+        <button type="button" class="modal-close-btn" id="story-modal-close" aria-label="Close story dialog">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+            <line x1="18" y1="6" x2="6" y2="18" />
+            <line x1="6" y1="6" x2="18" y2="18" />
+          </svg>
+        </button>
+      </div>
+      <h2 id="story-modal-title" class="story-modal-heading">Story Title</h2>
+      <p id="story-modal-body" class="story-modal-text"></p>
+      <div class="story-modal-note">
+        <strong>Editorial Note:</strong> This reusable story template is reserved for verified beneficiary narratives and approved clinical outcomes from Wings' maternal and newborn programmes in Malawi.
+      </div>
+      <div class="modal-actions">
+        <button type="button" class="btn btn-secondary" id="story-modal-dismiss">Close</button>
+        <button type="button" class="btn btn-primary" id="story-modal-involve">Support This Work</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
