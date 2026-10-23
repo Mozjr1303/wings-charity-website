@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Wings — Maternal and Newborn Support Organization Website",
   "scripts": {
+    "build": "echo 'No build step required'",
     "start": "node server.js",
     "dev": "node server.js"
   },
